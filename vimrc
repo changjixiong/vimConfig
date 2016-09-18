@@ -9,6 +9,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -42,6 +43,8 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+
+"*****************************池建强
 syn on                      "语法支持
 
 "common conf {{             通用配置
@@ -83,3 +86,8 @@ let g:Powerline_symbols = 'fancy'
 "}
 
 "}}
+
+"**************************** color
+syntax enable
+set background=dark
+colorscheme solarized
